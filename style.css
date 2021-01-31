@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right, #ffcc29, #f58634);
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.container{
+    width: 70%;
+}
+h1{
+    font-size: 2.5rem;
+    margin-top: 70px; 
+}
+
+.activity{
+    font-size: 1.2rem;
+    margin-top: 60px;
+}
+input, button{
+    border: none;
+    border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px 0;
+    outline: none;
+    padding: 15px;    
+}
+input{
+    width: 80%;
+}
+button:hover{
+    cursor: pointer;
+}
+.paragraph{
+    cursor: pointer;
+    margin: 2px;
+}
+section{
+    font-family: cursive;
+    margin-top: 40px;
+}
+section p{
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+@media screen and (max-width: 420px){
+    .container{
+        margin: auto;
+        height: 100vh;
+        width: 100%;  
+    }
+    .activity{
+        margin-bottom: 20px;
+    }
+    input, button{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 40px; 
+        width: 80%;
+    }
+    
+    button{
+        display: flex;
+        align-items: center;
+        margin: 10px auto;
+        margin-bottom: 40px;
+    }
+}
+
